@@ -9,5 +9,7 @@ def isPalindrome(s: str) -> bool:
     #리스트 슬라이싱 - 배열 뒤집기
     return s == s[::-1]
     
-mysting = "wow"
-print(isPalindrome(mysting))
+mystring = "A man, a plan, a canal: Panama"
+mystring2 = "race a car"
+print(isPalindrome(mystring))
+print(isPalindrome(mystring2))
